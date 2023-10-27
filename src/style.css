@@ -1,0 +1,12 @@
+.cat-info {
+    display: flex;
+}
+  .cat-info img {
+      max-width: 50%;
+  }
+
+  .cat-info p {
+      flex: 1;
+      margin-left: 20px;
+      margin-top: 10px;
+  }

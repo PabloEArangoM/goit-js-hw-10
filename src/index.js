@@ -34,9 +34,9 @@ breedSelect.addEventListener("change", () => {
       const catImage = document.createElement("img");
       catImage.src = catData[0].url;
       const catName = document.createElement("p");
-      catName.textContent = `Breed: ${catData[0].breeds[0].name}`;
+      catName.textContent = `${catData[0].breeds[0].name}`;
       const catDescription = document.createElement("p");
-      catDescription.textContent = `Description: ${catData[0].breeds[0].description}`;
+      catDescription.textContent = `${catData[0].breeds[0].description}`;
       const catTemperament = document.createElement("p");
       catTemperament.textContent = `Temperament: ${catData[0].breeds[0].temperament}`;
       catInfo.appendChild(catImage);
